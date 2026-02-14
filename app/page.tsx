@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Header from "./_componets/Header/Header";
 
 export default function Home() {
   return (
-      <main className=""> 
-        <h1 className="text-3xl font-bold ">Small Shop</h1>
+      <main className="h-screen flex justify-center bg-white-100"> 
+        <Header />
       </main>
   );
 }
