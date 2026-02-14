@@ -14,7 +14,18 @@ export default function LightCard({
   price,
 }: Props) {
   return (
-    <article className="bg-white p-5 rounded-lg flex flex-col gap-4 shadow-md">
+    <article className="
+  bg-white p-5 
+  rounded-lg 
+  flex flex-col 
+  gap-4 shadow-md 
+  transform-gpu
+  transition-all 
+  duration-300 
+  ease-out
+  hover:-translate-y-2
+  hover:scale-[1.02]
+  hover:shadow-2xl">
       
       <div className="flex justify-center h-40 relative">
         <Image
