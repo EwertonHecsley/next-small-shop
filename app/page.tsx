@@ -1,9 +1,14 @@
-import Header from "./_componets/Header/Header";
+import GpuSection from "./_componets/gpuSection/GpuSection";
+import Hero from "./_componets/hero/Hero";
+import WirelessSection from "./_componets/warelessSection/WirelessSection";
+
 
 export default function Home() {
   return (
-      <main className="h-screen flex justify-center bg-white-100"> 
-        <Header />
-      </main>
+    <main>
+      <Hero />
+      <WirelessSection />
+      <GpuSection />
+    </main>
   );
 }
